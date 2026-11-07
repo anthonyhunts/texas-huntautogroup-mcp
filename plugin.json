@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "huntautogroup-texas",
+  "version": "1.0.0",
+  "description": "Used-car data and buying guides for Central Texas (Austin to San Antonio) from texas.huntautogroup.com: NHTSA recalls, complaints and crash stars, EPA MPG and size by model year, plus Texas title, tax and inspection guides. Read-only, no key.",
+  "author": { "name": "Anthony Hunt", "url": "https://texas.huntautogroup.com/about/" },
+  "homepage": "https://texas.huntautogroup.com/developers/",
+  "repository": "https://github.com/anthonyhunts/texas-huntautogroup-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "used cars", "texas", "nhtsa", "recalls", "epa"]
+}
