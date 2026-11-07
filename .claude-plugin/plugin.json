@@ -1,0 +1,13 @@
+{
+  "name": "huntautogroup-texas",
+  "version": "1.0.0",
+  "description": "Used-car data and buying guides for Central Texas (Austin to San Antonio) from texas.huntautogroup.com: NHTSA recalls, complaints and crash stars, EPA MPG, size by model year. Read-only.",
+  "author": { "name": "Anthony Hunt", "url": "https://texas.huntautogroup.com/about/" },
+  "homepage": "https://texas.huntautogroup.com/developers/",
+  "repository": "https://github.com/anthonyhunts/texas-huntautogroup-mcp",
+  "license": "MIT",
+  "mcpServers": {
+    "huntautogroup-texas": { "type": "http", "url": "https://texas.huntautogroup.com/api/mcp/" },
+    "huntautogroup-texas-docs": { "type": "http", "url": "https://texas.huntautogroup.com/api/mcp/docs/" }
+  }
+}
