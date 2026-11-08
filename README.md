@@ -35,6 +35,21 @@ Claude Desktop / Cursor config:
 
 Claude Code plugin: this repo is a plugin (`.claude-plugin/plugin.json`) that registers both remote servers.
 
+## Command-line tool
+
+The same package ships a CLI, `huntautogroup-texas`, for scripts and terminals:
+
+```bash
+npx -p huntautogroup-texas-mcp huntautogroup-texas models --category truck
+npx -p huntautogroup-texas-mcp huntautogroup-texas model toyota-tacoma
+npx -p huntautogroup-texas-mcp huntautogroup-texas year toyota-tacoma 2018
+npx -p huntautogroup-texas-mcp huntautogroup-texas guides --q uber --lang en
+```
+
+Add `--json` for the raw API response. Exit code 1 means an API error (its stable `code` is printed), 2 means a usage error.
+
+Python: `pip install huntautogroup-texas` gives the same CLI plus a small SDK (`from huntautogroup_texas import Client`) and the stdio MCP server (`huntautogroup-texas-mcp`).
+
 ## Tools
 
 | Server | Tool | What it returns |
