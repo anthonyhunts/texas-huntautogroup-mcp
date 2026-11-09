@@ -1,6 +1,6 @@
 {
   "name": "huntautogroup-texas-mcp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "MCP server and CLI for Hunt Auto Group Texas: used-car data for Central Texas buyers (NHTSA recalls and crash stars, EPA MPG, size by model year) and buying guides. Read-only, no key.",
   "keywords": [
     "mcp",

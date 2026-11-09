@@ -60,5 +60,6 @@ rl.on("line", (line) => {
 });
 rl.on("close", async () => {
   await Promise.all([...pending]);
-  process.exit(0);
+  // No process.exit(): exiting while fetch sockets close trips a libuv assertion on Windows.
+  process.exitCode = 0;
 });
