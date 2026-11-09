@@ -50,6 +50,10 @@ Add `--json` for the raw API response. Exit code 1 means an API error (its stabl
 
 Python: `pip install huntautogroup-texas` gives the same CLI plus a small SDK (`from huntautogroup_texas import Client`) and the stdio MCP server (`huntautogroup-texas-mcp`).
 
+Go: `go get github.com/anthonyhunts/texas-huntautogroup-mcp/go` gives a small SDK (package `huntautotexas`, standard library only). See [go/README.md](go/README.md).
+
+Rate limit: 60 requests per 60 seconds per IP on the API and the MCP servers. Over the limit the answer is HTTP 429.
+
 ## Tools
 
 | Server | Tool | What it returns |
