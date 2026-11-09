@@ -45,7 +45,7 @@ Methods: `Index`, `Models`, `Model`, `ModelYear`, `Guides`, `Contact`. Responses
 
 Errors are RFC 9457 problem details, returned as `*APIError` with a stable `Code`.
 
-The rate limit is 60 requests per 60 seconds per IP. Over the limit, the API answers HTTP 429 and the client returns `Code` `rate_limited`.
+The rate limit is 300 requests per 60 seconds per IP. Over the limit, the API answers HTTP 429 and the client returns `Code` `rate_limited`.
 
 Set `HUNTAUTO_API_URL` to use a different API base URL.
 

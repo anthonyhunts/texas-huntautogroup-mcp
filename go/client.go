@@ -6,7 +6,7 @@
 // Transport Canada size by model year, plus the site's guides in English and Spanish.
 // There are no prices in this data. Owner complaints are unverified NHTSA reports.
 //
-// Rate limit: 60 requests per 60 seconds per IP. Over the limit the API answers HTTP 429.
+// Rate limit: 300 requests per 60 seconds per IP. Over the limit the API answers HTTP 429.
 //
 // Responses are returned as decoded JSON (map[string]any) so new fields never break callers.
 // Errors are RFC 9457 problem details, returned as *APIError with a stable Code.
